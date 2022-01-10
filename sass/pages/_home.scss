@@ -18,16 +18,16 @@ body {
         width: 100%;
        
         .login-left {
-            width: 25%;
+            width: 20%;
             position: relative;
             @media(max-width: 1360px){
+                width: 23%;
+            }
+            @media(max-width: 1018px){
+                width: 25%;
+            }
+            @media(max-width: 935px){
                 width: 30%;
-            }
-            @media(max-width: 1013px){
-                width: 33%;
-            }
-            @media(max-width: 779px){
-                width: 35%;
             }
             @media(max-width: 736px){
                 width:100%;
@@ -48,20 +48,28 @@ body {
                     color: #000000;
                     text-align: center;
                     margin-bottom: 30px;
-                    @media(max-width: 1130px){
+                    @media(max-width: 1696px){
                         font-size: 26px;
                         margin-bottom: 20px;
                     }
-                    @media(max-width: 921px){
+                    @media(max-width: 1520px){
                         font-size: 24px;
                         margin-bottom: 15px;
                     }
-                    @media(max-width: 850px){
+                    @media(max-width: 1403px){
                         font-size: 22px;
                         margin-bottom: 15px;
                     }
+                    @media(max-width: 1119px){
+                        font-size: 20px;
+                        margin-bottom: 10px;
+                    }
+                    @media(max-width: 779px){
+                        font-size: 18px;
+                        margin-bottom: 10px;
+                    }
                     @media(max-width: 736px){
-                        font-size: 22px;
+                        font-size: 24px;
                         margin-bottom: 10px;
                     }
                 }
@@ -111,17 +119,17 @@ body {
         }
 
         .login-right {
-            width: 75%;
+            width: 80%;
             background: #00101a;
             position: relative;
             @media(max-width: 1360px){
+                width: 77%;
+            }
+            @media(max-width: 1018px){
+                width: 75%;
+            }
+            @media(max-width: 935px){
                 width: 70%;
-            }
-            @media(max-width: 1013px){
-                width: 67%;
-            }
-            @media(max-width: 779px){
-                width: 65%;
             }
             @media(max-width: 736px){
                display: none;
